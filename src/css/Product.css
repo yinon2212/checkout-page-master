@@ -1,0 +1,24 @@
+.product{
+    display: flex;
+    margin-bottom: 50px;
+    align-items: flex-start;
+}
+
+.product .product-img{
+    width: 130px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.product .product-name{
+    margin-bottom: 5px;
+}
+
+.product .all-product-prices{
+    display: flex;
+    align-items: center;
+}
+
+.product .all-product-prices .final-price{
+    margin-right: 10px;
+}

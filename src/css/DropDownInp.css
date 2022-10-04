@@ -1,0 +1,26 @@
+.drop-down-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.drop-down-container .image-btn{
+    position: absolute;
+    top: calc(70% - 10px);
+    right: 25px;
+}
+
+.drop-down-items-container{
+    background-color: #f5f4f4;
+    width: calc(100% - 60px);
+    position: absolute;
+    border-radius: 10px;
+    padding: 20px;
+    bottom: -130px;
+
+}
+
+.drop-down-container .drop-down-item{
+    margin-bottom: 10px;
+    cursor: pointer;
+}

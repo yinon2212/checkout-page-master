@@ -1,0 +1,16 @@
+.contact-info,
+.shipping-address{
+    margin-top: 40px;
+    position: relative;
+}
+
+.shipping-address .regional-inputs{
+    display: flex;
+    margin-bottom: 25px;
+    width: 90%;
+}
+
+.shipping-address .regional-inputs .drop-down-container{
+    margin-right: 50px;
+    width: 100%;
+}

@@ -1,0 +1,12 @@
+.image-btn{
+    border: none;
+    background-color: gainsboro;
+    padding: 5px;
+    font-size: 0.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-btn i{
+    color: gray;
+}
