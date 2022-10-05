@@ -1,7 +1,10 @@
 import React from "react";
 import ImageButton from "./ImageButton";
 import InputField from "./InputField";
+import DropDownItemsCont from "./DropDownItemsCont";
 import '../css/DropDownInp.css';
+
+const dropDownItems = ["Israel", "United States", "Germany"]
 
 const DropDownInp = (props) => {
 
@@ -20,11 +23,10 @@ const DropDownInp = (props) => {
                 validateInput={false}
             />
             <ImageButton iconName={props.iconName} onClickFunc={toggleState} />
-            <div className="drop-down-items-container" style={{display: open ? "block" : "none"}}>
-                <p className="drop-down-item">Israel</p>
-                <p className="drop-down-item">United States</p>
-                <p className="drop-down-item">Germany</p>
-            </div>
+            <DropDownItemsCont
+                open={open}
+                items={dropDownItems}
+            />
         </div>
     );
     
